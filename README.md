@@ -1,9 +1,9 @@
 # chef-roswell
 [![Build Status](https://circleci.com/gh/Rudolph-Miller/chef-roswell.svg?style=shield)](https://circleci.com/gh/Rudolph-Miller/chef-roswell)
 
-- Chef cookbook for [Roswell](https://github.com/snmsts/roswell)
-- [Roswell](https://github.com/snmsts/roswell) is the project of installing Common Lisp and setting up everything just work is still difficult and you have to learn some tips.
-- Chef-roswell install ros itself, setup roswell, and install SBCL of the specific version.
+- [Roswell](https://github.com/snmsts/roswell) is a project designed to be an environment manager for Common Lisp. Roswell allows the user to maintain seperate flavors and versions of Common Lisp efficiently.
+- Chef cookbook for [Roswell](https://github.com/snmsts/roswell) is a collection of recipies, tips, and advice on using Roswell.
+- In order to get started, make sure you have installed Roswell and Chef-Roswell, performed Roswell set up, and installed SBCL of the specific version.
 
 ## Attribues
 - branch(default: "release"): Branch of Roswell.
